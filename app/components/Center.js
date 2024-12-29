@@ -6,7 +6,7 @@ const StyledDiv = styled.div`
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin: 40px auto;
+  margin: 20px auto;
   max-width: 100%;
   justify-items: center;
   align-items: center;

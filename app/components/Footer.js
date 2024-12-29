@@ -51,7 +51,7 @@ function Footer() {
                 })}
               </div>
               {/* Contact and email */}
-              <p>
+              <p id="contact">
                 <b>Call Us:</b> <br /> 0708 833 3274 <br /> 0802 757 7667
               </p>
               <p className="text-xs sm:text-base">
@@ -60,7 +60,7 @@ function Footer() {
                 enquiries@summysolutionandtechnology.com <br />{" "}
                 Summysolutiontechnology@gmail.com
               </p>
-              <p className="text-[16px] font-medium text-[#646464]">
+              <p className="text-[12px] sm:text-[16px] font-medium text-[#646464]">
                 Privacy Policy | © {new Date().getFullYear()} Summy Solutions
                 {/* <a
                   target="_blank"

@@ -7,16 +7,17 @@ import Center from "./Center";
 
 const Header = () => {
   return (
-    <div className="h-80 flex flex-col sm:mb-20 md:mb-10">
+    <div className="flex flex-col sm:mb-20 md:mb-10">
       <div className="flex justify-start items-start p-4 sm:p-10 sm:pl-16">
         <Image src={Logo} alt="logo" width={100} />
       </div>
       <Center>
         <section className="flex flex-col justify-center items-center gap-6">
-          <h1 className="uppercase font-bold text-3xl text-center text-gray-700 px-8 sm:px-0">
-            summy solution and technology ventures
-          </h1>
-          {/* <Link href="/">
+          <div className="flex flex-col gap-4">
+            <h1 className="uppercase font-bold text-3xl text-center text-gray-700 px-8 sm:px-0">
+              summy solution and technology ventures
+            </h1>
+            {/* <Link href="/">
         <button className="text-gray inline-flex gap-2 bg-headerButton text-gray-950 font-semibold px-4 py-2 rounded-full hover:bg-headerButtonHover">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +36,12 @@ const Header = () => {
           Contact Us 
         </button>
       </Link> */}
-          <ButtonLink href={"/"} header="true" className="w-fit">
+            <p className="text-sm px-10 sm:px-28 md:px-40">
+              Gbagada Round About, 2 Ora Ekpen Cres, off Bolajide Avenue,
+              Gbagada, Lagos 100001, Lagos.
+            </p>
+          </div>
+          <ButtonLink href={"#contact"} header="true" className="w-fit">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
