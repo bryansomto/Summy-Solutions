@@ -24,14 +24,14 @@ function Footer() {
   ];
   return (
     <Center>
-      <footer className="bg-white">
+      <footer className="">
         <div className="container mx-auto sm:py-[2rem]">
           {/* footer div all */}
           <div className="flex justify-between flex-col md:gap-[5rem] text-left">
             {/* logo side */}
             <div className="flex flex-col items-center md:p-0 py-4 gap-8">
               <Image src={Logo} alt="footer_logo" className="w-[18rem]" />
-              <p className="text-[15px] font-medium text-[#646464] w-1/2">
+              <p className="text-[15px] font-medium w-1/2">
                 Let Summy Solution and Technology Ventures handle all your air
                 conditioning, refrigeration, mechanical, and plumbing needs with
                 precision and care.
@@ -60,7 +60,7 @@ function Footer() {
                 enquiries@summysolutionandtechnology.com <br />{" "}
                 Summysolutiontechnology@gmail.com
               </p>
-              <p className="text-[12px] sm:text-[16px] font-medium text-[#646464]">
+              <p className="text-[12px] sm:text-[16px] font-medium">
                 Privacy Policy | © {new Date().getFullYear()} Summy Solutions
                 {/* <a
                   target="_blank"

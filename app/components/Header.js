@@ -14,7 +14,7 @@ const Header = () => {
       <Center>
         <section className="flex flex-col justify-center items-center gap-6">
           <div className="flex flex-col gap-4">
-            <h1 className="uppercase font-bold text-3xl text-center text-gray-700 px-8 sm:px-0">
+            <h1 className="uppercase font-bold text-3xl text-center px-8 sm:px-0">
               summy solution and technology ventures
             </h1>
             {/* <Link href="/">
