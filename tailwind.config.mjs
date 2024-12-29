@@ -10,6 +10,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        headerButton: "#D1F5FF", //Light Cyan
+        headerButtonHover: "#3F63B5", //Free Speech Blue
+      },
+      fontFamily: {
+        Exo: ["Exo", "sans-serif"],
+        Cedarville: ["Cedarville Cursive", "cursive"],
       },
     },
   },
