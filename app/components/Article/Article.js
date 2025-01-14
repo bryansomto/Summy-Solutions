@@ -106,6 +106,15 @@ const Article = () => {
           <li>Home A/C and refrigerator parts for optimal performance.</li>
         </ul>
       </article>
+      <article id="training" className="px-6 sm:px-0">
+        <h2>Apprenticeship Training</h2>
+        <p>
+          Gain hands-on experience and practical skills in air conditioning,
+          refrigeration, and plumbing. Our expert-led training programs are
+          tailored to equip you with the knowledge and expertise required to
+          thrive in these industries.
+        </p>
+      </article>
       <article className="flex flex-col gap-6 bg-gray-900 sm:bg-white text-gray-200 sm:text-gray-900 px-6 sm:px-0 py-12 sm:py-0 font-light sm:font-normal">
         <div className="embla mt-3 rounded-lg" ref={emblaRef1}>
           <div className="embla__container w-1/2 sm:w-1/3 md:w-1/4 gap-4 p-4">

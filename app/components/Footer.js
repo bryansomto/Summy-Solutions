@@ -12,10 +12,10 @@ import Center from "./Center";
 
 function Footer() {
   const iconsTab = [
-    {
-      icon: <FaFacebookF />,
-      link: "https://www.facebook.com/profile.php?id=100088349081665&mibextid=ZbWKwL",
-    },
+    // {
+    //   icon: <FaFacebookF />,
+    //   link: "https://www.facebook.com/profile.php?id=100088349081665&mibextid=ZbWKwL",
+    // },
     {
       icon: <FaEnvelope />,
       link: "mailto:ilesanmijoseph@summysolutionandtechnology.com",
