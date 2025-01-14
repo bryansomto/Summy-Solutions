@@ -105,9 +105,7 @@ const Article = () => {
         <ul>
           <li>Home A/C and refrigerator parts for optimal performance.</li>
         </ul>
-      </article>
-      <article id="training" className="px-6 sm:px-0">
-        <h2>Apprenticeship Training</h2>
+        <h3>Apprenticeship Training</h3>
         <p>
           Gain hands-on experience and practical skills in air conditioning,
           refrigeration, and plumbing. Our expert-led training programs are
